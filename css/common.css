@@ -1,0 +1,178 @@
+﻿@charset "utf-8";
+
+html, body {
+    color: #333333;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif,'Times New Roman';
+    font-size: 14px !important; /* IE 8-9 */
+    background-color: #ffffff;
+}
+
+#header {
+    width: 1024px;
+    height: 130px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#header .logo {
+        left: 0px;
+        position: absolute;
+        top: 10px;
+}
+
+#header ul {
+        position: absolute;
+        right: 210px;
+        text-align: right;
+        top: 10px;
+}
+
+#header .logo-right {
+        position: absolute;
+        right: 10px;
+        text-align: right;
+        top: 10px;
+}
+
+#header li {
+        padding-bottom: 4px;
+        font-size: 12px;
+}
+
+#header li img {
+            margin: 3px;
+}
+
+#header strong {
+        font-family: "Arial Black";
+}
+
+#footer {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#footer .slogan {
+        text-align: right;
+        color: #666;
+        line-height: 24px;
+        font-size: 12px;
+}
+
+.catalog a {
+    background-image: url('../Images/GreenCircle.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    color: #5f5f5f;
+    display: block;
+    padding: 15px 15px 15px 30px;
+}
+
+.text-green {
+    color: #009405;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bg {
+    background: #f7ffff; /* Old browsers */
+    background: -moz-linear-gradient( #f7ffff, #d3ffd8 ); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, from(#f7ffff), to(#d3ffd8) ); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient( #f7ffff,#d3ffd8 ); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient( #f7ffff,#d3ffd8 ); /* Opera 11.10+ */
+    background: -ms-linear-gradient( #f7ffff,#d3ffd8 ); /* IE10+ */
+    background: linear-gradient( #f7ffff,#d3ffd8 ); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ffff', endColorstr='#d3ffd8',GradientType=0 ); /* IE6-8 */
+    zoom: 1;
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+    -moz-box-shadow: 1px 1px 1px #cccccc; /* Firefox */
+    -webkit-box-shadow: 1px 1px 1px #cccccc; /* Safari 和 Chrome */
+    box-shadow: 1px 1px 1px #cccccc; /* ALL */
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.bg p {
+        padding: 10px 0 10px 10px;
+}
+
+.inline {
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 20px;
+    text-align: right;
+    vertical-align: top;
+    width: 130px;
+}
+
+.catalog {
+    border: 1px solid #cccccc;
+    float: left;
+    width: 250px;
+}
+
+.catalog-2 {
+    border: 1px solid #cccccc;
+    float: left;
+    width: 160px;
+    height: 250px;
+    text-align: center;
+}
+
+.catalog li {
+        background-color: #fcfefe;
+        border-top: 1px solid #eaeaea;
+}
+
+.catalog a:hover {
+        background-color: #c5e0f8;
+        border-left: 4px solid #7e99b1;
+        font-weight: bold;
+}
+
+.first-word {
+    display: inline-block;
+    width: 480px;
+}
+
+ul　 {
+    border-top: 1px solid #724da3;
+}
+
+img.top {
+    border: 0 none;
+    cursor: pointer;
+    float: right;
+    height: 17px;
+    width: 44px;
+}
+
+#nav {
+    background-color: #f4f3f3;
+    height: 50px;
+    text-align: center;
+}
+
+#body .wrapper {
+    width: 1024px;
+    min-height: 350px;
+    padding: 20px 0 0;
+    margin: 0px auto; /* firefox */
+    *margin: 0px auto; /* ie7 */
+    _margin: 0px auto; /* ie6 */
+}
+
+.RightBlock {
+    float: right;
+    width: 750px;
+}

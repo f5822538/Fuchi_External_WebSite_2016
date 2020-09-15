@@ -1,0 +1,76 @@
+﻿@charset "utf-8";
+
+ul.topmenu
+{
+    margin: 0 auto;
+    width: 1024px;
+    height: 48px;
+}
+
+    ul.topmenu li
+    {
+        position: relative;
+        padding: 0px;
+        margin: 0px;
+        float: left;
+    }
+
+ul.topmenu
+{
+    margin: 0 auto;
+    width: 1024px;
+    height: 48px;
+}
+
+    ul.topmenu li a
+    {
+        background: #DFDFDF; /* Old browsers */
+        background: -moz-linear-gradient( #DFDFDF, #FDFDFD ); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, from(#DFDFDF), to(#FDFDFD) ); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient( #DFDFDF,#FDFDFD ); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient( #DFDFDF,#FDFDFD ); /* Opera 11.10+ */
+        background: -ms-linear-gradient( #DFDFDF,#FDFDFD ); /* IE10+ */
+        background: linear-gradient( #FDFDFD,#DFDFDF ); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FDFDFD', endColorstr='#DFDFDF',GradientType=0 ); /* IE6-8 */
+        zoom: 1;
+        border-right: 1px solid #dbdbdb;
+        color: #333333;
+        display: block;
+        float: left;
+        height: 48px;
+        border-top: 1px solid #f2f2f2;
+        line-height: 48px;
+        width: 169px;
+    }
+
+        ul.topmenu li a.active
+        {
+            background: #95f3f3; /* Old browsers */
+            background: -moz-linear-gradient( #95f3f3, #28589c ); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, from(#95f3f3), to(#28589c) ); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient( #95f3f3,#28589c ); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient( #95f3f3,#28589c ); /* Opera 11.10+ */
+            background: -ms-linear-gradient( #95f3f3,#28589c ); /* IE10+ */
+            background: linear-gradient( #95f3f3,#28589c ); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#95f3f3', endColorstr='#28589c',GradientType=0 ); /* IE6-8 */
+            zoom: 1;
+            border-right: 1px solid #fff;
+            color: #ffffff;
+        }
+
+        ul.topmenu li a:hover
+        {
+            color: #6dbad3;
+        }
+
+        ul.topmenu li a.active:hover
+        {
+            color: #ffffff;
+        }
+
+        ul.topmenu li a strong span
+        {
+            color: #d9d9d9;
+            font-size: 11px;
+            margin-left: 10px;
+        }
